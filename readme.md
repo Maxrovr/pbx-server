@@ -44,19 +44,19 @@ hangup
 
 A simple 2 Client Client Server connection and communication looks like this (In this order):
 
-Terminal window 1:
+Terminal window 1 (starting the server):
 ```
 demo/pbx -p 3333
 ```
-Terminal window 2:
+Terminal window 2 (client 1: Denoted by the number 3(First available File Descriptor)):
 ```
 telnet localhost 3333
 ```
-Terminal window 3:
+Terminal window 3(client 1: Denoted by the number 4):
 ```
 telnet localhost 3333
 pickup
-dial 3 // connects to telnet in terminal 2 (User File Descriptors start from 3)
+dial 3 // connects to telnet in terminal 2 
 ```
 Terminal window 2:
 ```
