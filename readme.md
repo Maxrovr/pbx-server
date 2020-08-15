@@ -69,7 +69,7 @@ Terminal window 3:
 chat hello to you too
 ......
 ```
-Send hangup from either to terminate
+Send `hangup` from either to terminate
 
 If you make a second connection to the server from yet another terminal window,
 you can make calls.
