@@ -1,6 +1,6 @@
 ## Introduction
 
-Implementaion a server that simulates the behavior
+Implementation of a server that simulates the behavior
 of a Private Branch Exchange (PBX) telephone system.
 
 There are three modules:
@@ -20,7 +20,7 @@ There are three modules:
 ## Getting Started
 
   * From pre-built executable  
-    * `demo/pbx -p 3333`[1](#[1])
+    * `demo/pbx -p 3333`[1](#1)
   
   Or,
 
